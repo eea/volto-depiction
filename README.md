@@ -11,7 +11,7 @@ Make Volto aware of [depiction](https://github.com/eea/eea.depiction) image scal
 
 ## Usage
 
-See [volto-listing-block](https://github.com/eea/volto-listing-bloc
+See [volto-listing-block](https://github.com/eea/volto-listing-block)
 
 ## Getting started
 
