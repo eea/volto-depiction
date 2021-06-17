@@ -3,11 +3,15 @@
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-depiction%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-depiction/job/master/display/redirect)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-depiction%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-depiction/job/develop/display/redirect)
 
-[Volto](https://github.com/plone/volto) add-on
+[Volto](https://github.com/plone/volto) add-on: To use depiction image scales
 
 ## Features
 
-Demo GIF
+Make Volto aware of [depiction](https://github.com/eea/eea.depiction) image scales (e.g.: `image_preview`, `image_thumb`, `image_large`)
+
+## Usage
+
+See [volto-listing-block](https://github.com/eea/volto-listing-bloc
 
 ## Getting started
 
