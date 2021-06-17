@@ -1,21 +1,17 @@
-# volto-addon-template
-[![Releases](https://img.shields.io/github/v/release/eea/volto-addon-template)](https://github.com/eea/volto-addon-template/releases)
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-addon-template%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-addon-template/job/master/display/redirect)
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-addon-template%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-addon-template/job/develop/display/redirect)
+# volto-depiction
+[![Releases](https://img.shields.io/github/v/release/eea/volto-depiction)](https://github.com/eea/volto-depiction/releases)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-depiction%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-depiction/job/master/display/redirect)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto-addons%2Fvolto-depiction%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto-addons/job/volto-depiction/job/develop/display/redirect)
 
-[Volto](https://github.com/plone/volto) add-on: To use depiction image scales
+[Volto](https://github.com/plone/volto) add-on
 
 ## Features
 
-Make Volto aware of [depiction](https://github.com/eea/eea.depiction) image scales (e.g.: `image_preview`, `image_thumb`, `image_large`)
-
-## Usage
-
-See [volto-listing-block](https://github.com/eea/volto-listing-block)
+Demo GIF
 
 ## Getting started
 
-### Try volto-addon-template with Docker
+### Try volto-depiction with Docker
 
 1. Get the latest Docker images
 
@@ -32,12 +28,12 @@ See [volto-listing-block](https://github.com/eea/volto-listing-block)
 1. Start Volto frontend
 
    ```
-   docker run -it --rm -p 3000:3000 --link plone -e ADDONS="@eeacms/volto-addon-template" plone/volto
+   docker run -it --rm -p 3000:3000 --link plone -e ADDONS="@eeacms/volto-depiction" plone/volto
    ```
 
 1. Go to http://localhost:3000
 
-### Add volto-addon-template to your Volto project
+### Add volto-depiction to your Volto project
 
 1. Make sure you have a [Plone backend](https://plone.org/download) up-and-running at http://localhost:8080/Plone
 
@@ -47,11 +43,11 @@ See [volto-listing-block](https://github.com/eea/volto-listing-block)
 
    ```JSON
    "addons": [
-       "@eeacms/volto-addon-template"
+       "@eeacms/volto-depiction"
    ],
 
    "dependencies": {
-       "@eeacms/volto-addon-template": "^1.0.0"
+       "@eeacms/volto-depiction": "^1.0.0"
    }
    ```
 
@@ -59,7 +55,7 @@ See [volto-listing-block](https://github.com/eea/volto-listing-block)
 
    ```
    npm install -g yo @plone/generator-volto
-   yo @plone/volto my-volto-project --addon @eeacms/volto-addon-template
+   yo @plone/volto my-volto-project --addon @eeacms/volto-depiction
    cd my-volto-project
    ```
 
@@ -76,7 +72,19 @@ See [volto-listing-block](https://github.com/eea/volto-listing-block)
 
 ## How to contribute
 
-See [DEVELOP.md](https://github.com/eea/volto-addon-template/blob/master/DEVELOP.md).
+See [DEVELOP.md](https://github.com/eea/volto-depiction/blob/master/DEVELOP.md).
+
+## Copyright and license
+
+The Initial Owner of the Original Code is European Environment Agency (EEA).
+All Rights Reserved.
+
+See [LICENSE.md](https://github.com/eea/volto-depiction/blob/master/LICENSE.md) for details.
+
+## Funding
+
+[European Environment Agency (EU)](http://eea.europa.eu)
+/master/DEVELOP.md).
 
 ## Copyright and license
 
