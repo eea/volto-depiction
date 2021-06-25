@@ -22,6 +22,7 @@ export default function (express) {
   const middleware = express.Router();
 
   middleware.all(['**/image_[a-z]+$'], imageMiddleware);
+  middleware.all(['**/*.svg$'], imageMiddleware);
   middleware.id = 'depictionResourcesProcessor';
   return middleware;
 }
