@@ -111,7 +111,7 @@ See [LICENSE.md](https://github.com/eea/volto-depiction/blob/master/LICENSE.md) 
 The Initial Owner of the Original Code is European Environment Agency (EEA).
 All Rights Reserved.
 
-See [LICENSE.md](https://github.com/eea/volto-addon-template/blob/master/LICENSE.md) for details.
+See [LICENSE.md](https://github.com/eea/volto-depiction/blob/master/LICENSE.md) for details.
 
 ## Funding
 
