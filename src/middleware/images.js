@@ -18,8 +18,7 @@ function imageMiddleware(req, res, next) {
     .catch(errorHandler);
 }
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default function (express) {
+export default function imageMiddlewareWrapper(express) {
   const middleware = express.Router();
 
   middleware.all(['**/image_[a-z]+$'], imageMiddleware);
