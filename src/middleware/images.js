@@ -18,7 +18,7 @@ function imageMiddleware(req, res, next) {
     .catch(errorHandler);
 }
 
-export default function (express) {
+export default function imageMiddlewareWrapper(express) {
   const middleware = express.Router();
 
   middleware.all(['**/image_[a-z]+$'], imageMiddleware);
